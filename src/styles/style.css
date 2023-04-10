@@ -1,0 +1,26 @@
+main{
+    width: 100%;
+    height: auto;
+}
+
+.content{
+    background: #e2e2e2;
+    float: left;
+    width: 29.333%;
+    height: 100px;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+}
+
+.contents:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.section{
+    background: #eeee;
+    clear: both;
+    margin-top: 50px;
+}
