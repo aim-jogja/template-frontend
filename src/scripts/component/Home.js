@@ -1,7 +1,7 @@
 const Home = {
     render(){
         return `<div class="contents">
-                    <div class="content">
+                    <div class="content" id="contentsatu">
                         <h2>content 1</h2>
                         <p>This is first content</p>
                     </div>
@@ -18,6 +18,9 @@ const Home = {
                 <section class="section">
                     <h1>This is section</h1>
                 </section>`;
+    },
+    form(){
+        return `<h1>Judul Satu</h1>`;
     }
 }
 
